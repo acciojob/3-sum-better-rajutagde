@@ -46,8 +46,4 @@ function threeSum(nums, target) {
 }
 
 // Example usage:
-let nums = [-1, 2, 1, -4];
-let target = 1;
-let closestSum = threeSum(nums, target);
-console.log(closestSum); // Output: 2
 
