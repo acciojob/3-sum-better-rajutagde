@@ -1,6 +1,4 @@
 function threeSum(arr, target) {
-// write your code here
-  
   arr.sort((a, b) => a - b); // Sort the array in non-decreasing order
   let closestSum = Infinity;
   for (let i = 0; i < arr.length - 2; i++) {
